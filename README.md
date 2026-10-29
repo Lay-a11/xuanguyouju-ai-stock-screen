@@ -5,6 +5,7 @@
 ## 在线产品
 
 - 产品地址：<https://xuanguyouju-ai-stock-screen.epic-hinny-6834.chatgpt.site/>
+- 源代码仓库：<https://github.com/Lay-a11/xuanguyouju-ai-stock-screen>
 - 最终提交版本：对话式策略澄清流程
 - 股票池：20 家沪深跨行业固定演示样本，不代表全 A 股
 
