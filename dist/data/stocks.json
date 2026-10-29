@@ -1,0 +1,986 @@
+{
+  "schemaVersion": 2,
+  "capturedAt": "2026-10-28T09:37:00.005Z",
+  "universe": {
+    "name": "20 家沪深代表性公司演示池",
+    "size": 20,
+    "method": "为验证跨行业筛选与解释流程而固定的演示样本；不代表全 A 股覆盖或投资推荐。"
+  },
+  "sources": [
+    {
+      "name": "同花顺扶摇金融数据 API",
+      "url": "https://fuyao.aicubes.cn/docs/",
+      "fields": [
+        "行情快照",
+        "PE TTM",
+        "PB MRQ",
+        "整体合并利润表",
+        "前复权历史日线"
+      ],
+      "priceRequestId": "cd44bf2b2a084f979dc79abc345b62a3",
+      "valuationRequestId": "f96eb12c8023499ba9ccc7ac8d2b6c42"
+    }
+  ],
+  "stocks": [
+    {
+      "code": "600519",
+      "name": "贵州茅台",
+      "market": "SH",
+      "industry": null,
+      "price": 1330.75,
+      "changePct": -1.85,
+      "peTtm": 20.43,
+      "pbMrq": 6.62,
+      "revenueGrowth": 1.47,
+      "profitGrowth": -1.95,
+      "volatility20d": 18.45,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-15",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "b22cce680f864bc284dce2d5f602e198",
+        "history": "d897264d9d9c4905a98b293b679abda1"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 20.43,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 6.62,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 90703260964.48,
+          "comparable": 89389354416.84,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 44516880421.86,
+          "comparable": 45402962298.1,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "000858",
+      "name": "五粮液",
+      "market": "SZ",
+      "industry": null,
+      "price": 72.4,
+      "changePct": -3.95,
+      "peTtm": 23.05,
+      "pbMrq": 2.37,
+      "revenueGrowth": 7.25,
+      "profitGrowth": 49.98,
+      "volatility20d": 23.59,
+      "volatilitySamples": 20,
+      "reportDate": "2026-09-30",
+      "noticeDate": "2026-10-28",
+      "reportType": "2026 Q3",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "4ff0c35ab3b94dc08987fad8acec4814",
+        "history": "a2877c3272124931b6d13e987d99737b"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 23.05,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 2.37,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 32858473964.34,
+          "comparable": 30637727654.97,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 9710647471.03,
+          "comparable": 6474551792.18,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "601318",
+      "name": "中国平安",
+      "market": "SH",
+      "industry": null,
+      "price": 52.31,
+      "changePct": -0.57,
+      "peTtm": 5.95,
+      "pbMrq": 0.92,
+      "revenueGrowth": 15.01,
+      "profitGrowth": 36.06,
+      "volatility20d": 18.64,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-21",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "0c06138ab25c488799576084f3558ba7",
+        "history": "828e292f8fcd4b2ca6dbb5b57d7288e2"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 5.95,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 0.92,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 575138000000,
+          "comparable": 500076000000,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 92585000000,
+          "comparable": 68047000000,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "market": "SZ",
+      "industry": null,
+      "price": 229.14,
+      "changePct": -1.66,
+      "peTtm": 12.09,
+      "pbMrq": 2.74,
+      "revenueGrowth": 56.19,
+      "profitGrowth": 31.6,
+      "volatility20d": 60.05,
+      "volatilitySamples": 20,
+      "reportDate": "2026-09-30",
+      "noticeDate": "2026-10-21",
+      "reportType": "2026 Q3",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "165c72f5d04b4e41ab45de5fcffc025d",
+        "history": "a57542f436e946dab571b6581b0ac59e"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 12.09,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 2.74,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 442137424000,
+          "comparable": 283071987000,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 64530063000,
+          "comparable": 49034109000,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "600036",
+      "name": "招商银行",
+      "market": "SH",
+      "industry": null,
+      "price": 42.13,
+      "changePct": -2,
+      "peTtm": 7,
+      "pbMrq": 0.93,
+      "revenueGrowth": 4.83,
+      "profitGrowth": 2.02,
+      "volatility20d": 19.58,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-29",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "13de5577a32642bf8b7d6257efe6f8e4",
+        "history": "20b24e58c69e45d3b719a22b81c5c774"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 7,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 0.93,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 178181000000,
+          "comparable": 169969000000,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 76445000000,
+          "comparable": 74930000000,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "000333",
+      "name": "美的集团",
+      "market": "SZ",
+      "industry": null,
+      "price": 85.91,
+      "changePct": 1.02,
+      "peTtm": 14.77,
+      "pbMrq": 3.1,
+      "revenueGrowth": 3.55,
+      "profitGrowth": 1.66,
+      "volatility20d": 19.28,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-29",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "42ffc89e61f34f3da8600b642b20c67d",
+        "history": "32f4a53957204a6fab32fe94e4aee1f4"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 14.77,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 3.1,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 260042490000,
+          "comparable": 251123714000,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 26446037000,
+          "comparable": 26013690000,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "600276",
+      "name": "恒瑞医药",
+      "market": "SH",
+      "industry": null,
+      "price": 48.36,
+      "changePct": 6.17,
+      "peTtm": 36.13,
+      "pbMrq": 4.8,
+      "revenueGrowth": 5.26,
+      "profitGrowth": 20.38,
+      "volatility20d": 36.35,
+      "volatilitySamples": 20,
+      "reportDate": "2026-09-30",
+      "noticeDate": "2026-10-28",
+      "reportType": "2026 Q3",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "8986a933d79142cda5beb4a653b8467c",
+        "history": "c0c64a740b174ec3aefcb79457eb52a6"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 36.13,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 4.8,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 24408762724.19,
+          "comparable": 23188081928.77,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 6923404216.25,
+          "comparable": 5751169537.65,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "601012",
+      "name": "隆基绿能",
+      "market": "SH",
+      "industry": null,
+      "price": 11.27,
+      "changePct": -1.57,
+      "peTtm": null,
+      "pbMrq": 1.77,
+      "revenueGrowth": -17.58,
+      "profitGrowth": null,
+      "volatility20d": 25.9,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-31",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "2f7ac63672fd4067b54070437999dd24",
+        "history": "e593a77d7e734f93ad140e5ff17c1e6f"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": -11.34,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 1.77,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 27045209097.55,
+          "comparable": 32813146398.68,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": -3684104428.05,
+          "comparable": -2569358351.05,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "600887",
+      "name": "伊利股份",
+      "market": "SH",
+      "industry": null,
+      "price": 28.69,
+      "changePct": -0.69,
+      "peTtm": 17.93,
+      "pbMrq": 3.38,
+      "revenueGrowth": 4.13,
+      "profitGrowth": -20.02,
+      "volatility20d": 14.73,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-27",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "17e9971d4dd54d37a495d00bac065c65",
+        "history": "fef6a5c0da6e4cc9bd64bff3d00c4ff5"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 17.93,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 3.38,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 64330936547.38,
+          "comparable": 61776746682.68,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 5758628097.79,
+          "comparable": 7200477611.91,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "000651",
+      "name": "格力电器",
+      "market": "SZ",
+      "industry": null,
+      "price": 37.3,
+      "changePct": 1.91,
+      "peTtm": 8.42,
+      "pbMrq": 1.39,
+      "revenueGrowth": -8.1,
+      "profitGrowth": -19.51,
+      "volatility20d": 23.37,
+      "volatilitySamples": 20,
+      "reportDate": "2026-09-30",
+      "noticeDate": "2026-10-27",
+      "reportType": "2026 Q3",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "aee19beaae464c7da175e5389d179f2e",
+        "history": "442c3cecd26a4a338a025a2cce387a09"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 8.42,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 1.39,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 126075079046.57,
+          "comparable": 137180093143.85,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 17273815437.66,
+          "comparable": 21461336806.54,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "600030",
+      "name": "中信证券",
+      "market": "SH",
+      "industry": null,
+      "price": 24.86,
+      "changePct": -0.76,
+      "peTtm": 10.3,
+      "pbMrq": 1.22,
+      "revenueGrowth": 18.6,
+      "profitGrowth": 32.66,
+      "volatility20d": 20.48,
+      "volatilitySamples": 20,
+      "reportDate": "2026-09-30",
+      "noticeDate": "2026-10-27",
+      "reportType": "2026 Q3",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "d6019a614d1e46af9a2d8cdeef8d1730",
+        "history": "a377f2b17f7f4842bf3e5ca27c00bc51"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 10.3,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 1.22,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 66590306144.15,
+          "comparable": 56146513908.17,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 31021994688.23,
+          "comparable": 23384573168.46,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "601166",
+      "name": "兴业银行",
+      "market": "SH",
+      "industry": null,
+      "price": 19.1,
+      "changePct": 0,
+      "peTtm": 5.36,
+      "pbMrq": 0.48,
+      "revenueGrowth": -0.25,
+      "profitGrowth": -4.66,
+      "volatility20d": 16.41,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-28",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "7d71145844634649b38bda9033a2e9fc",
+        "history": "95848e0562924ca48883e2614529bd38"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 5.36,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 0.48,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 110177000000,
+          "comparable": 110458000000,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 41131000000,
+          "comparable": 43141000000,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "600900",
+      "name": "长江电力",
+      "market": "SH",
+      "industry": null,
+      "price": 29.4,
+      "changePct": -1.44,
+      "peTtm": 19.87,
+      "pbMrq": 3.33,
+      "revenueGrowth": 3.36,
+      "profitGrowth": 13.02,
+      "volatility20d": 13.6,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-31",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "9f968ffca5e14c8987511c917c9a9e78",
+        "history": "283c7bc1faec473182b8fb06faa46d3b"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 19.87,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 3.33,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 37929268927.18,
+          "comparable": 36697614066.72,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 14755694774.53,
+          "comparable": 13056352473.55,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "000001",
+      "name": "平安银行",
+      "market": "SZ",
+      "industry": null,
+      "price": 11.31,
+      "changePct": -1.39,
+      "peTtm": 5.05,
+      "pbMrq": 0.46,
+      "revenueGrowth": 2.42,
+      "profitGrowth": 2.21,
+      "volatility20d": 19.1,
+      "volatilitySamples": 20,
+      "reportDate": "2026-09-30",
+      "noticeDate": "2026-10-24",
+      "reportType": "2026 Q3",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "995a1263423d41aea542a27b4e9e97b4",
+        "history": "d181987456e14fa0a9caae4df89693db"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 5.05,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 0.46,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 103100000000,
+          "comparable": 100668000000,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 39186000000,
+          "comparable": 38339000000,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "600104",
+      "name": "上汽集团",
+      "market": "SH",
+      "industry": null,
+      "price": 10.9,
+      "changePct": 0.93,
+      "peTtm": 13.56,
+      "pbMrq": 0.42,
+      "revenueGrowth": 0.22,
+      "profitGrowth": -14.38,
+      "volatility20d": 18.71,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-29",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "2be344f8317a4c1bb2b70d37a8e138fc",
+        "history": "b05b34e9c6994c9bac0c8dc3ac293ce2"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 13.56,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 0.42,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 294986941677.51,
+          "comparable": 294336270589.52,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 5152318161.71,
+          "comparable": 6017510073.12,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "002594",
+      "name": "比亚迪",
+      "market": "SZ",
+      "industry": null,
+      "price": 82.74,
+      "changePct": 0.89,
+      "peTtm": 25.63,
+      "pbMrq": 3.14,
+      "revenueGrowth": -7.13,
+      "profitGrowth": -20.54,
+      "volatility20d": 26.35,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-29",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "a1c89744d1e547e493d7da85adb4fcd3",
+        "history": "cee1c27d7497424b85243815973d9954"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 25.63,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 3.14,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 344815421000,
+          "comparable": 371280948000,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 12325408000,
+          "comparable": 15510533000,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "600309",
+      "name": "万华化学",
+      "market": "SH",
+      "industry": null,
+      "price": 70.46,
+      "changePct": 0.18,
+      "peTtm": 11.59,
+      "pbMrq": 1.9,
+      "revenueGrowth": 28.87,
+      "profitGrowth": 70.99,
+      "volatility20d": 30.27,
+      "volatilitySamples": 20,
+      "reportDate": "2026-09-30",
+      "noticeDate": "2026-10-27",
+      "reportType": "2026 Q3",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "ca461b6e47094e3297fbafba535d7c80",
+        "history": "fec6d484c1aa411aa4734109c468586f"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 11.59,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 1.9,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 185866695487.88,
+          "comparable": 144225795451,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 15657978353,
+          "comparable": 9157288304.88,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "601888",
+      "name": "中国中免",
+      "market": "SH",
+      "industry": null,
+      "price": 50,
+      "changePct": -0.36,
+      "peTtm": 25.38,
+      "pbMrq": 1.81,
+      "revenueGrowth": -1.76,
+      "profitGrowth": 19.49,
+      "volatility20d": 18.22,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-21",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "0f9adbf0f720497ab93a61b366a28899",
+        "history": "baad2f344f4542f486612bd82ad2476d"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 25.38,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 1.81,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 27655202065.43,
+          "comparable": 28150749967.59,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 3106431288.12,
+          "comparable": 2599752928.09,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "000725",
+      "name": "京东方Ａ",
+      "market": "SZ",
+      "industry": null,
+      "price": 4.83,
+      "changePct": 2.11,
+      "peTtm": 22.77,
+      "pbMrq": 1.34,
+      "revenueGrowth": 1.83,
+      "profitGrowth": 61.62,
+      "volatility20d": 29.54,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-29",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "f5ddad3b58084e9c9f6a75182c4121b4",
+        "history": "6369b6ce50c44425af533c2a6fbae7b5"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": 22.77,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 1.34,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 103132382859,
+          "comparable": 101278182135,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": 5247660077,
+          "comparable": 3246885779,
+          "unit": "元"
+        }
+      }
+    },
+    {
+      "code": "600438",
+      "name": "通威股份",
+      "market": "SH",
+      "industry": null,
+      "price": 11.35,
+      "changePct": -1.05,
+      "peTtm": null,
+      "pbMrq": 1.58,
+      "revenueGrowth": -15.19,
+      "profitGrowth": null,
+      "volatility20d": 32.14,
+      "volatilitySamples": 20,
+      "reportDate": "2026-06-30",
+      "noticeDate": "2026-08-27",
+      "reportType": "2026 Q2",
+      "quoteTimestamp": "2026-10-28T09:36:50.000Z",
+      "requestIds": {
+        "prices": "cd44bf2b2a084f979dc79abc345b62a3",
+        "valuations": "f96eb12c8023499ba9ccc7ac8d2b6c42",
+        "financials": "7314bd210fdd45b7a6d24c50892b639b",
+        "history": "561fa96a149c4c2ab50eeae73752a1c6"
+      },
+      "raw": {
+        "pe": {
+          "field": "pe_ttm",
+          "value": -5.26,
+          "unit": "倍"
+        },
+        "pb": {
+          "field": "pb_mrq",
+          "value": 1.58,
+          "unit": "倍"
+        },
+        "revenueGrowth": {
+          "field": "operating_income",
+          "latest": 34356956077.44,
+          "comparable": 40508808156.69,
+          "unit": "元"
+        },
+        "profitGrowth": {
+          "field": "parent_holder_net_profit",
+          "latest": -5119294750.54,
+          "comparable": -4955369484.65,
+          "unit": "元"
+        }
+      }
+    }
+  ]
+}

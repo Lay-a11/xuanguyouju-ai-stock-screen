@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="选股有据：通过对话把模糊选股想法变成可检查、可修改、可执行的数据条件。">
+  <title>选股有据｜自然语言选股与策略解释器</title><link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#top"><span class="brand-mark">据</span><span><strong>选股有据</strong><small>先聊清楚，再看依据</small></span></a><div class="top-meta"><span class="status-dot"></span><span id="dataStatus">正在读取数据</span></div></header>
+  <main id="top">
+    <section class="intro chat-intro"><div><span class="eyebrow">自然语言选股 · 真实数据验证</span><h1>先把你的想法，<em>一起聊清楚。</em></h1><p>AI 不替你决定“什么是合理”，而是解释、追问，并和你共同形成可执行的筛选标准。</p></div><div class="trust-badges"><span>只追问模糊处</span><span>条件由你确认</span><span>结果有数据依据</span></div></section>
+    <section class="chat-shell" aria-label="AI 选股对话">
+      <header class="chat-header"><div><span class="ai-avatar">AI</span><span><strong>策略澄清助手</strong><small>受限语义解析演示 · 可选择、直接回复或反问</small></span></div><button id="restartChat" class="ghost-button" type="button">重新开始</button></header>
+      <div id="chatMessages" class="chat-messages" aria-live="polite"><article class="message ai-message"><span class="message-avatar">AI</span><div class="bubble"><p>你好。先不用考虑指标，请直接告诉我：<strong>你想找什么样的公司？</strong></p><p class="message-note">例如：“经营在变好、价格别太贵，最近走势稳一点。”</p></div></article></div>
+      <form id="chatForm" class="chat-composer"><textarea id="chatInput" rows="1" placeholder="说说你想找什么样的公司，或直接问我某个概念是什么意思"></textarea><button class="send-button" type="submit" aria-label="发送">↑</button></form>
+      <div class="chat-foot"><span>AI 负责理解与解释，名单由确定性规则产生</span><span id="universeDetail">正在读取股票池</span></div>
+    </section>
+    <section id="resultSection" class="result-section hidden"><div id="results" class="results">
+      <div class="result-heading"><div><span class="eyebrow">真实数据筛选完成</span><h2 id="resultHeadline">找到符合条件的公司</h2><p id="resultSubline"></p></div><button id="saveStrategy" class="secondary" type="button">保存策略</button></div>
+      <div id="runMeta" class="run-meta"></div>
+      <div class="summary-grid"><button class="summary-card active" data-tab="pass"><strong id="passCount">0</strong><span>符合全部条件</span></button><button class="summary-card" data-tab="fail"><strong id="failCount">0</strong><span>至少一项未通过</span></button><button class="summary-card" data-tab="unknown"><strong id="unknownCount">0</strong><span>信息不足</span></button></div>
+      <div id="reasonSummary" class="reason-summary"></div><div id="impactPanel" class="impact-panel hidden"></div>
+      <div class="result-tools"><label>查找某家公司<input id="stockSearch" type="search" placeholder="输入名称或代码"></label><span id="activeTabLabel">正在查看：符合条件</span></div><div id="resultList" class="stock-list"></div>
+    </div></section>
+    <section class="principle"><strong>产品边界</strong><span>AI 理解、澄清与解释</span><i></i><span>用户确认具体标准</span><i></i><span>扶摇真实数据执行筛选</span></section>
+  </main>
+  <dialog id="evidenceDialog"><button class="dialog-close" type="button" aria-label="关闭">×</button><div id="dialogContent"></div></dialog><div id="toast" class="toast" role="status"></div>
+  <footer><span>选股有据 · 产品验证版</span><span>研究工具，不构成投资建议</span></footer><script type="module" src="./app.js"></script>
+</body></html>

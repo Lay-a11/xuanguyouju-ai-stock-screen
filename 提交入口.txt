@@ -1,0 +1,22 @@
+题目02｜自然语言智能选股与策略解释器
+
+产品 URL：
+https://xuanguyouju-ai-stock-screen.epic-hinny-6834.chatgpt.site/
+
+源代码仓库 URL：
+https://github.com/Lay-a11/xuanguyouju-ai-stock-screen
+
+核心材料：
+- README.md
+- 最终提交说明.md
+- 验收报告.md
+- AI使用与验证记录.md
+- 测试说明.md
+- 产品设计方案.md
+- 演示脚本.md
+
+说明：
+- 在线产品已设置为 public。
+- 当前运行时为受限语义解析演示，不是通用大模型。
+- 使用同花顺扶摇真实数据快照，固定20家演示池。
+- 不构成投资建议。

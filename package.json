@@ -1,0 +1,9 @@
+{
+  "name": "xuanguyouju",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "refresh-data": "node scripts/fetch-fuyao-data.mjs",
+    "test": "node tests/run-tests.mjs"
+  }
+}
